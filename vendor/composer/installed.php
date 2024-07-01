@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'asd2d/hexlet-slim',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '3120c59be02d9776ddd5118894f6904d4692ccdf',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'asd2d/hexlet-slim' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '3120c59be02d9776ddd5118894f6904d4692ccdf',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -119,14 +119,14 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
-                1 => '^1.0',
-                2 => '^1.1 || ^2.0',
+                1 => '^1.1 || ^2.0',
+                2 => '^1.0',
             ),
         ),
         'psr/http-message' => array(
-            'pretty_version' => '2.0',
-            'version' => '2.0.0.0',
-            'reference' => '402d35bcb92c70c026d1a6a9883f06b2ead23d71',
+            'pretty_version' => '1.1',
+            'version' => '1.1.0.0',
+            'reference' => 'cb6ce4845ce34a8ad9e68117c10ee90a29919eba',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/http-message',
             'aliases' => array(),
@@ -136,8 +136,8 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
-                1 => '^1.0 || ^2.0',
-                2 => '^1.1 || ^2.0',
+                1 => '^1.1 || ^2.0',
+                2 => '^1.0 || ^2.0',
             ),
         ),
         'psr/http-server-handler' => array(
@@ -182,6 +182,15 @@
             'reference' => 'a8def7b8e9eabd0cdc21654ad4a82606942e066a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../slim/http',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'slim/php-view' => array(
+            'pretty_version' => '3.2.0',
+            'version' => '3.2.0.0',
+            'reference' => '67f2a616a9336350834013485361f2b2aa049f6e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../slim/php-view',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

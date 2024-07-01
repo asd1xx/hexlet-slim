@@ -23,6 +23,7 @@ class ComposerStaticInitf24e6ad626e91fdafcd42c67f08fa3ad
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
+            'Slim\\Views\\' => 11,
             'Slim\\Psr7\\' => 10,
             'Slim\\Http\\' => 10,
             'Slim\\' => 5,
@@ -67,6 +68,10 @@ class ComposerStaticInitf24e6ad626e91fdafcd42c67f08fa3ad
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+        ),
+        'Slim\\Views\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/slim/php-view/src',
         ),
         'Slim\\Psr7\\' => 
         array (
